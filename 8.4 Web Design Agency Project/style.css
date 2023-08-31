@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 footer {
@@ -19,3 +19,37 @@ footer {
   color: midnightblue;
 }
 
+/* my changes start here */
+.crate {
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+/* To change the card pattern for larger screens */
+@media (min-width:703px){
+
+  .left {
+    float: left;
+    width: 45%;
+  }
+
+  .right {
+    float: right;
+    width: 45%;
+  }
+
+}
+
+/* To change the font size of the header element for smaller screens */
+@media (min-width:831px){
+
+  h1 {
+    font-size: 5em;
+  }
+
+}
